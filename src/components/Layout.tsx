@@ -1,4 +1,4 @@
-import { AppShell, Container } from "@mantine/core"
+import { AppShell } from "@mantine/core"
 import { ReactNode } from "react"
 
 type LayoutProps = {

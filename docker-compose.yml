@@ -1,0 +1,11 @@
+version: "3.9"
+
+services:
+  web:
+    image: itstreason/homepage:1.0.0
+    build:
+      context: "."
+      dockerfile: "./docker/web/Dockerfile"
+      target: "production"
+    ports:
+      - "80:80"
