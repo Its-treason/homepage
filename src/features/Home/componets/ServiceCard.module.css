@@ -1,0 +1,27 @@
+.root {
+  min-width: 250px;
+  flex: 1;
+  max-width: unset !important;
+}
+
+.title {
+  font-size: rem(20px);
+  margin-bottom: var(--mantine-spacing-md);
+}
+
+.icon {
+  margin-bottom: var(--mantine-spacing-md);
+  background-color: var(--mantine-color-orange-8);
+
+  > img {
+    height: 70%;
+    width: 70%;
+    color: var(--mantine-color-text);
+    margin: 15% auto;
+    border-radius: 50%;
+  }
+}
+
+.control {
+  margin-top: var(--mantine-spacing-md);
+}
