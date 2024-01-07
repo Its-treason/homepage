@@ -12,7 +12,7 @@ const Header: React.FC = () => {
         </h1>
 
         <Text className={classes.description}>
-          Greetings! Here, I'm hosting a small variety of services and personal hobby projects on this domain.
+          Greetings! I'm hosting a small variety of services and personal hobby projects on this domain.
         </Text>
       </Container>
     </div>

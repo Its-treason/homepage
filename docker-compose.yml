@@ -2,7 +2,7 @@ version: "3.9"
 
 services:
   web:
-    image: itstreason/homepage:1.0.0
+    image: itstreason/homepage:1.0.1
     build:
       context: "."
       dockerfile: "./docker/web/Dockerfile"
